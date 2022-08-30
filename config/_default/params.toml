@@ -7,7 +7,7 @@ titleAddition = "The House of Merlin"
 description = "The House of Merlin is a space where people come together to gain new knowledge and wisdom, and have a good laugh."
 
 ## Open Graph
-images = ["hyas.png"]
+images = ["tymyrddin.png"]
 ogLocale = "en_GB"
 titleHome = "Ty Myrddin"
 
@@ -24,10 +24,10 @@ schemaAuthorTwitter = "https://twitter.com/TyMyrddin"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/nina-barzh/"
 schemaAuthorGitHub = "https://github.com/tymyrddin"
 schemaLocale = "en-GB"
-schemaLogo = "logo-hyas.png"
+schemaLogo = "logo-tymyrddin.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "hyas.png"
+schemaImage = "tymyrddin.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/TyMyrddin"
