@@ -3,9 +3,34 @@
   <div class="col-lg-7 pb-5 text-center">
     <h1>{{ .Title }}</h1>
     <p>{{ .Params.Lead | safeHTML }}</p>
-    <a class="btn btn-dark px-3" href="{{ "quick-start/" | absURL }}" role="button">Quick Start</a>
-    <a class="btn btn-outline-dark px-3" href="https://gethyas.com/" role="button">View Docs</a>
-    <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/hyas">GitHub v{{ $data := getJSON "package.json" }}{{ $data.version }}</a></p>
   </div>
 </div>
+
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+        <h2 class="h4">Wyrdly flying about</h2>
+        <img src="/images/sisters.png" alt="Wyrd sisters"
+          width="100%"
+          height="auto" />
+        <p><br>A collection of snippets, application boilerplates, pipelines, testing frameworks and tools for getting started in development projects by the <a href="https://wyrd.tymyrddin.dev/">Wyrd Sisters</a> on <a href="https://bitbucket.org/tymyrddin" target="_blank">BitBucket</a>. Fine practice targets too.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Learning machine learning</h2>
+        <img src="/images/milliways.png" alt="Milliways"
+          width="100%"
+          height="auto" />
+        <p><br>A selection of data related learning, including data collection, analysis, wrangling, visualisation, machine learning, deep learning and data science in <a href="https://milliways.tymyrddin.dev/" target="_blank">Milliways, the Restaurant at the End of the Universe</a>, on <a href="https://gitlab.com/tymyrddin" target="_blank">Gitlab</a>.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Unseen security classes</h2>
+        <img src="/images/unseen-university-library.png" alt="Unseen University Library"
+          width="100%"
+          height="auto" />
+        <p><br>A medley of security related research, attack trees, threat modelling, and python scripts for ethical hacking and mitigations in non-existent classes of the <a href="https://uu.tymyrddin.dev/" target="_blank">The Unseen University</a> on Discworld, hosted on <a href="https://github.com/tymyrddin" target="_blank">Github</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
 {{ end }}

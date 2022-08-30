@@ -3,12 +3,12 @@
 ## Homepage
 title = "Ty Myrddin"
 titleSeparator = "-"
-titleAddition = "Development"
-description = "Hyas is a Hugo starter helping you build modern websites that are secure, fast, and SEO-ready — by default."
+titleAddition = "The House of Merlin"
+description = "The House of Merlin is a space where people come together to gain new knowledge and wisdom, and have a good laugh."
 
 ## Open Graph
 images = ["hyas.png"]
-ogLocale = "en_US"
+ogLocale = "en_GB"
 titleHome = "Ty Myrddin"
 
 ## Twitter Cards
