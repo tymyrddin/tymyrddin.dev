@@ -20,9 +20,12 @@
 @include media-breakpoint-up(md) {
   .navbar-brand {
     font-size: $font-size-base;
+    color: $gray-dark;
   }
 
   .navbar-text {
+    font-size: $font-size-base;
+    color: $gray-dark;
     margin-left: 1.25rem;
   }
 }
