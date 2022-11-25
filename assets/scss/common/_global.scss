@@ -17,6 +17,10 @@ body {
 --bs-body-bg: #222;
 }
 
+a {
+color: $gray-light;
+}
+
 @include media-breakpoint-up(md) {
   body {
     font-size: $font-size-md;
