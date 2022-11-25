@@ -7,10 +7,6 @@
   font-size: $font-size-sm;
 }
 
-.footer a {
-  color: $gray;
-}
-
 @include media-breakpoint-up(md) {
   .footer p {
     font-size: $font-size-base;
