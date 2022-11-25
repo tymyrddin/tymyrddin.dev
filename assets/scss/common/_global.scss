@@ -14,7 +14,7 @@ h6,
 }
 
 body {
---bs-body-bg: #111;
+--bs-body-bg: #222;
 }
 
 @include media-breakpoint-up(md) {
@@ -51,7 +51,7 @@ body {
 }
 
 .section {
-  background: $gray-darker;
+  background: $gray-darkest;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
