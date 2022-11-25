@@ -2,7 +2,7 @@ p.meta {
   margin-top: 1rem;
   font-size: $font-size-base;
   font-family: $font-family-monospace;
-  color: $gray-light;
+  color: $white;
 }
 
 @include media-breakpoint-down(sm) {
@@ -12,7 +12,7 @@ p.meta {
 }
 
 p.meta a {
-  color: $gray-light;
+  color: $white;
 }
 
 p.meta a:hover,
